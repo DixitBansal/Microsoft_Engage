@@ -10,7 +10,7 @@ Content Based Recommender System recommends movies similar to the movie user lik
 The details of the movies(title, genre, runtime, rating, poster, etc) are fetched using an API by TMDB, https://www.themoviedb.org/documentation/api, and using the IMDB id of the movie in the API, I did web scraping to get the reviews given by the user in the IMDB site using `beautifulsoup4` and performed sentiment analysis on those reviews.
 
 
-## How to get the API key?
+## How to get the API key?(In this project i have already given)
 
 Create an account in https://www.themoviedb.org/, click on the `API` link from the left hand sidebar in your account settings and fill all the details to apply for API key. If you are asked for the website URL, just give "NA" if you don't have one. You will see the API key in your `API` sidebar once your request is approved.
 
@@ -18,12 +18,12 @@ Create an account in https://www.themoviedb.org/, click on the `API` link from t
 
 1. Clone or download this repository to your local machine.
 2. Download credits.csv and movies_metadata.csv from [The Movies Dataset](https://www.kaggle.com/rounakbanik/the-movies-dataset) and paste it to your main folder.
-4. open visual studio code and install all the libraries mentioned in the [requirements.txt](https://github.com/DixitBansal/Microsoft_Engage/blob/main/requirements.txt) file with the command `pip install -r requirements.txt`
-5. Get your API key from https://www.themoviedb.org/. (Refer the above section on how to get the API key)
-6. Replace YOUR_API_KEY in **both** the places (line no. 23 and 43) of `static/recommend.js` file and hit save.
-7. Open your terminal/command prompt from your project directory and run the file `main.py` by executing the command `python main.py`.
-8. Go to your browser and type `http://127.0.0.1:5000/` in the address bar.
-9. Hurray! That's it.
+3. open visual studio code and install all the libraries mentioned in the [requirements.txt](https://github.com/DixitBansal/Microsoft_Engage/blob/main/requirements.txt) file with the command `pip install -r requirements.txt`
+4. Get your API key from https://www.themoviedb.org/. (**Optional**)
+5. Replace YOUR_API_KEY in **both** the places (line no. 23 and 43) of `static/recommend.js` file and hit save.
+6. Open your terminal/command prompt from your project directory and run the file `main.py` by executing the command `python main.py`.
+7. Go to your browser and type `http://127.0.0.1:5000/` in the address bar.
+8. Hurray! That's it.
 ## Architecture
 
 ![Recommendation App](https://user-images.githubusercontent.com/36665975/168742738-5435cf76-1a42-4d87-94b4-999e5bfc48d3.png)

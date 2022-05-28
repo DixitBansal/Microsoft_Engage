@@ -1,0 +1,321 @@
+/* checking */
+:root {
+	--shadow-color: #3c31318f;
+	--shadow-color-light: white;
+}
+
+
+p.logo-1 {
+	margin: calc(50vh - 40px) auto 0 auto;
+	font-size: 46px;
+	text-transform: uppercase;
+	font-family: "Archivo Black", "Archivo", sans-serif;
+	font-weight: normal;
+	display: block;
+	height: auto;
+	text-align: center;
+}
+
+.logo-1 {
+	color: #9b85858a;
+	animation: neon 3s infinite;
+}
+
+@keyframes neon {
+	0% {
+		text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+			0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
+			0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
+	}
+
+	50% {
+		text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+			0 0 5px var(--shadow-color-light), 0 0 15px var(--shadow-color-light), 0 0 25px var(--shadow-color-light),
+			0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 60px var(--shadow-color), 0 0 80px var(--shadow-color), 0 0 110px var(--shadow-color), 0 0 210px var(--shadow-color);
+	}
+
+	100% {
+		text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+			0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
+			0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
+	}
+}
+
+/* checkingend */
+.neon {
+	color: #fff;
+	text-shadow:
+		0 0 5px #fff,
+		0 0 10px #fff,
+		0 0 20px #fff,
+		0 0 40px #0ff,
+		0 0 80px #0ff,
+		0 0 90px #0ff,
+		0 0 100px #0ff,
+		0 0 150px #0ff;
+}
+
+.movie {
+	color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	resize: none;
+}
+
+.movie-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.movie-content>div {
+	margin: 20px;
+}
+
+.form-group {
+	margin-bottom: 0rem;
+}
+
+.our-story-card-text {
+	position: relative;
+	width: 100%;
+	padding: 75px 0;
+	max-width: 950px;
+	margin: 0 auto;
+	text-align: center;
+	z-index: 1;
+}
+
+.our-story-card-subtitle,
+.our-story-card-text {
+	font-size: 1.625rem;
+	font-weight: 400;
+}
+
+.our-story-card {
+	position: relative;
+	padding: 50px 5%;
+	margin-bottom: 0;
+	background: 0 0;
+	color: #fff;
+}
+
+.btn-block {
+	width: 15%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	color: #e4e0e0;
+}
+
+#content {
+	background-image: url("../static/img.jpg");
+	background-color: #181818;
+	font-family: 'Noto Sans JP', sans-serif;
+
+
+
+}
+
+#details {
+	margin-left: 50px;
+}
+
+.footer {
+	color: #e4e0e0;
+	text-align: right;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	width: 100%;
+}
+
+.h1 {
+	font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #e50914;
+	font-weight: bold;
+	margin-top: 30px;
+	text-shadow: #000000 0px 0px 13px;
+}
+
+.github-corner:hover .octo-arm {
+	animation: octocat-wave 560ms ease-in-out;
+}
+
+@keyframes octocat-wave {
+
+	0%,
+	100% {
+		transform: rotate(0)
+	}
+
+	20%,
+	60% {
+		transform: rotate(-25deg)
+	}
+
+	40%,
+	80% {
+		transform: rotate(10deg)
+	}
+}
+
+#autoComplete {
+	background-position: 98%;
+}
+
+#name {
+	color: #9b85858a;
+	padding: 1px;
+}
+
+h6 {
+	margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 650px) {
+	#mcontent {
+		display: block;
+	}
+
+	.poster-lg {
+		display: none;
+	}
+
+	#details {
+		margin-left: 30px;
+	}
+
+	#autoComplete {
+		background-position: 97%;
+	}
+
+	svg[data-toggle=tooltip] {
+		width: 50px;
+		height: 50px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.modal-body {
+		display: block;
+	}
+
+	.profile-pic {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		margin-bottom: 20px;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.modal-body {
+		display: flex;
+	}
+}
+
+@media only screen and (min-width: 651px) {
+	.poster-sm {
+		display: none;
+	}
+
+	#mcontent {
+		display: flex;
+		flex-wrap: nowrap;
+	}
+
+	#loader {
+		display: none;
+		position: fixed;
+		z-index: 100;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background-image: url("../static/loader4.gif");
+		background-size: 40%;
+		background-position: 50% 50%;
+		background-color: rgba(255, 255, 255, 1);
+		background-repeat: no-repeat;
+
+	}
+
+
+
+}
+
+.poster {
+	-webkit-box-shadow: 0px 1px 15px 4px rgba(250, 250, 250, 1);
+	-moz-box-shadow: 0px 1px 15px 4px rgba(250, 250, 250, 1);
+	box-shadow: 0px 1px 15px 4px rgba(250, 250, 250, 1);
+}
+
+.card:hover {
+	cursor: pointer;
+}
+
+.castcard:hover {
+	cursor: pointer;
+}
+
+.cast-img {
+	filter: brightness(100%);
+	-moz-transition: all 0.75s ease;
+	-webkit-transition: all 0.75s ease;
+	transition: all 0.75s ease;
+}
+
+
+.cast-img:hover {
+	filter: brightness(50%);
+	-moz-transition: all 0.75s ease;
+	-webkit-transition: all 0.75s ease;
+	transition: all 0.75s ease;
+}
+
+.fig {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	backdrop-filter: brightness(50%);
+	position: absolute;
+	bottom: 0px;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	opacity: 0;
+	-moz-transition: all 0.75s ease;
+	-webkit-transition: all 0.75s ease;
+	transition: all 0.75s ease;
+}
+
+.fig:hover {
+	opacity: 1;
+	backdrop-filter: br;
+	-moz-transition: all 0.75s ease;
+	-webkit-transition: all 0.75s ease;
+	transition: all 0.75s ease;
+	-webkit-box-shadow: 0px 1px 15px 4px rgba(250, 250, 250, 1);
+	-moz-box-shadow: 0px 1px 15px 4px rgba(250, 250, 250, 1);
+	box-shadow: 0px 1px 15px 4px rgba(250, 250, 250, 1);
+}
+
+.card-btn {
+	border-radius: 20px;
+}
+
+.imghvr {
+	position: relative;
+}
+
+.table td {
+	border-color: white;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.fail {
+	display: none;
+	color: white;
+}

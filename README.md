@@ -25,7 +25,7 @@ Create an account in https://www.themoviedb.org/, click on the `API` link from t
 7. Open your terminal/command prompt from your project directory and run the file `main.py` by executing the command `python main.py`.
 8. Go to your browser and type `http://127.0.0.1:5000/` in the address bar.
 9. Hurray! That's it.
- if there is any error run the command **pip install lxml**
+ if there is any error run the command **pip install lxml** in vscode terminal
 ## Architecture
 
 ![Recommendation App](https://user-images.githubusercontent.com/36665975/168742738-5435cf76-1a42-4d87-94b4-999e5bfc48d3.png)
